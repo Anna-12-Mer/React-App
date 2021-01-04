@@ -13,6 +13,5 @@ const connectDB = async () =>{
         process.exit(1)
     }
 }
-console.log(connectDB);
 
-module.export = connectDB
+exports.connectDb = connectDB; 
