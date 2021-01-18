@@ -15,3 +15,5 @@ router.get('/:id', (req, res)=>{
     console.log('here');
     res.json(product)
 });
+
+module.exports = router;
